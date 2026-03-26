@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #040466;
-    /* --secondary-color: #f4a261; */
+    --primary-color: #ededf9;
+    --secondary-color: #29276b;
     --accent1-color: #264653;
-    --accent2-color: #f2f4f5;
+    --accent2-color: #042d42;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -33,7 +33,7 @@ footer {
 main h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 nav,
@@ -56,34 +56,42 @@ article {
 
 .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 5px;
     width: 100%;
-    padding: 16px;
+    padding: 10px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    text-align: left;
+    opacity: 0.8;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
 .hero article img {
     float: right;
     width: 125px;
-}
-
-.hero article {
-    position: relative;
+    margin: 0 0 0 6px;
 }
 
 main section h2 {
-    position: absolute;
+    position: relative;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
 }
 
 footer img {
     width: 150px;
     height: auto;
-
 }
