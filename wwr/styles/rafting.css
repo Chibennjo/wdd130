@@ -43,7 +43,7 @@ footer {
     margin: 0 auto;
 }
 
-main h1,
+h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -119,12 +119,6 @@ figure {
 .socialmedia a {
     text-decoration: none;
 }
-
-/* footer img {
-    width: 80px;
-    height: auto;
-
-} */
 
 footer {
     display: flex;
