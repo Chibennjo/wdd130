@@ -121,16 +121,9 @@ figure {
 }
 
 footer {
-    display: flex;
-    /* makes items horizontal */
-    justify-content: flex-start;
-    /* pushes items apart */
+    display: grid;
+    grid-template-columns: 650px 1fr;
     align-items: center;
-    /* aligns them vertically */
-
-    /* padding: 5px 20px; */
-    margin-right: 20px;
-
 }
 
 .socialmedia {
