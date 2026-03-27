@@ -98,7 +98,13 @@ main section h2 {
     position: relative;
 }
 
+main section figure img {
+    width: 200;
+    height: auto;
+}
+
 main section figure {
+
     /* display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20%;
