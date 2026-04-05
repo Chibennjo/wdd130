@@ -28,11 +28,6 @@ footer {
 
 /* HEADER */
 .top-bar {
-    /* background: #b9a7d8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px; */
     margin-top: 20px;
     background-color: var(--secondary-color);
     border: 1px solid #999;
@@ -43,9 +38,6 @@ footer {
 }
 
 .logo {
-    /* width: 100px;
-    height: 80px;
-    background: #ddd; */
     margin-left: 80px;
     width: 100px;
     height: 100px;
@@ -55,15 +47,11 @@ footer {
 }
 
 .nav a {
-    /* margin: 0 10px; */
     padding: 5px 15px;
     background: var(--primary-color);
     text-decoration: none;
-    /* box-sizing: border-box; */
     border: 1px solid #999;
     gap: -0.5px;
-    /* color: var(); */
-
 }
 
 /* COMPANY INFO */
@@ -74,26 +62,13 @@ footer {
 
 /* CONTACT SECTION */
 .contact-section {
-    /* display: flex;
-    gap: 20px;
-    padding: 20px; */
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 10px;
     padding: 20px;
 }
 
-/* .map {
-    flex: 1;
-    width: 400px;
-    height: 500px;
-    background: #ddd;
-} */
-
 .contact-form {
-    /* flex: 1;
-    display: flex;
-    flex-direction: column; */
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(102, 101, 101, 0.1);
@@ -111,8 +86,6 @@ footer {
 }
 
 .radio-group label {
-    /* display: block;
-    margin-bottom: 5px; */
     font-weight: normal;
     display: flex;
     align-items: center;
@@ -175,11 +148,12 @@ button {
 
 /* FOOTER */
 .footer {
-    background: var(--secondary-color);
+    background: var(--accent1-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px 10px 200px;
+    border: 1px solid #ccc;
 }
 
 .socialmedia div {
