@@ -51,7 +51,6 @@ footer {
     background: var(--primary-color);
     text-decoration: none;
     border: 1px solid #999;
-    gap: -0.5px;
 }
 
 /* COMPANY INFO */
