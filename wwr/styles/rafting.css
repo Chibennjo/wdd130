@@ -138,22 +138,6 @@ footer {
 }
 
 /* ================= About Us ================= */
-/* .hero {
-    position: relative;
-    margin-top: 10px;
-    border: 1px solid var(--border);
-    background: var(--section-bg);
-    padding: 10px;
-} */
-
-/* TITLE */
-/* .hero h1 {
-    top: 8px;
-    width: 100%;
-    text-align: center;
-    font-family: var(--heading-font);
-    color: var(--text-dark);
-} */
 .hero {
     position: relative;
     margin-top: 10px;
@@ -163,50 +147,39 @@ footer {
 
 .hero img {
     width: 100%;
-    float: right;
 }
 
+/* TITLE */
 .hero h1 {
     position: absolute;
-    top: 8px;
+    top: 20px;
     width: 100%;
     text-align: center;
     font-family: var(--heading-font);
-    color: var(--text-dark);
+    color: white;
 }
 
-/* .hero-cta {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: white;
-    padding: 15px;
-    border: 1px solid var(--border);
-    text-align: center;
-} */
-
-/* PURPOSE BOX */
+/* PURPOSE BOX (REQUIRED FIX) */
 .hero article {
     position: absolute;
-    margin: 50px 30px;
+    bottom: 20px;
+    left: 30px;
+    right: 30px;
     background: var(--main-bg);
     padding: 15px;
     border: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: 20px;
 }
 
-.hero img {
+/* IMAGE INSIDE ARTICLE (REQUIRED FIX) */
+.hero article img {
     float: right;
-    margin-right: 20px;
-    width: 140px;
+    width: 120px;
+    margin-left: 15px;
 }
 
-.purpose p {
+/* .purpose p {
     font-size: 14px;
-}
+} */
 
 /* HISTORY */
 .history {
