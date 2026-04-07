@@ -158,7 +158,7 @@ footer {
     width: 100%;
     text-align: center;
     font-family: var(--heading-font);
-    color: white;
+    color: var(--main-bg);
 }
 
 /* PURPOSE BOX (REQUIRED FIX) */
