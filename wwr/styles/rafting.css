@@ -24,6 +24,8 @@
 
 body {
     background: var(--main-bg);
+    font-family: var(--body-font);
+    color: var(--text-dark);
 }
 
 header,
@@ -36,36 +38,41 @@ footer {
 
 /* HEADER */
 .top-bar {
-    margin-top: 10px;
-    background-color: var(--header-footer);
-    border: 1px solid var(--border);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 380px 1fr;
     align-items: center;
+    background: var(--header-footer);
+    border: 1px solid var(--border);
+    margin-top: 10px;
+    padding: 10px;
 
 }
 
-.logo {
-    margin-left: 120px;
+.logo img {
+    margin-left: 60px;
     width: 100px;
-    height: 100px;
-    background: var(--primary-color);
+}
+
+.nav {
     display: flex;
     justify-content: center;
+    gap: 0px;
 }
 
 .nav a {
-    padding: 5px 15px;
+    text-decoration: none;
+    padding: 8px 20px;
     border: 1px solid var(--border);
     background: #fff;
-    text-decoration: none;
-    border: 1px solid #999;
+    color: #000;
+    font-size: 14px;
 }
 
 /* COMPANY INFO */
 .company-info {
     text-align: center;
     padding: 20px;
+
 }
 
 /* CONTACT SECTION */
@@ -79,9 +86,9 @@ footer {
 .contact-form {
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba(102, 101, 101, 0.1);
-    border-radius: 0.5rem;
-    background-color: var(--primary-color);
+    /* border: 1px solid var(--border); */
+    /* border-radius: 0.5rem; */
+    /* background-color: var(--primary-color); */
     display: grid;
     grid-template-columns: 2fr 4fr;
     gap: 15px;
@@ -93,10 +100,16 @@ footer {
     margin-bottom: 10px;
 }
 
+.message-purpose {
+    display: flex;
+    align-items: center;
+}
+
 .radio-group label {
     font-weight: normal;
     display: flex;
-    align-items: center;
+    /* align-items: flex-start; */
+    justify-content: flex-start;
     gap: 8px;
 }
 

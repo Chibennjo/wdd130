@@ -32,7 +32,7 @@ footer {
 /* ================= HEADER ================= */
 .top-bar {
     display: grid;
-    grid-template-columns: 260px 1fr;
+    grid-template-columns: 380px 1fr;
     align-items: center;
     background: var(--header-footer);
     border: 1px solid var(--border);
@@ -50,7 +50,7 @@ footer {
 .nav {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 0px;
 }
 
 .nav a {
