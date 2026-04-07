@@ -110,7 +110,8 @@ footer {
     display: flex;
     /* align-items: flex-start; */
     justify-content: flex-start;
-    gap: 8px;
+    gap: 15px;
+    padding: 5px 0;
 }
 
 .message-label {
