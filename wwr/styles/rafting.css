@@ -127,7 +127,6 @@ footer {
 }
 
 .checkbox {
-    /* grid-column: span 2; */
     display: grid;
     grid-template-columns: 15px 100%;
     gap: 10px;
