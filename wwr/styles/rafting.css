@@ -164,16 +164,6 @@ footer {
 /* PURPOSE BOX (REQUIRED FIX) */
 .hero article {
     position: absolute;
-    top: 180px;
-    left: 50%;
-    right: 30px;
-    background: var(--main-bg);
-    padding: 15px;
-    border: 1px solid var(--border);
-}
-
-.hero article {
-    position: absolute;
     top: 80px;
     left: 50%;
     transform: translateX(-50%);
