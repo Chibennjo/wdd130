@@ -146,6 +146,7 @@ footer {
     align-items: center;
 }
 
+/* To darken the picture background */
 .hero::before {
     content: "";
     position: absolute;
@@ -165,7 +166,8 @@ footer {
     width: 100%;
     text-align: center;
     font-family: var(--heading-font);
-    color: #FFFFFF;
+    color: var(--main-bg);
+    /* color: #FFFFFF; */
     /* background: rgba(47, 62, 70, 0.85);
     padding: 10px; */
 
