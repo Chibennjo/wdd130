@@ -92,7 +92,7 @@ footer {
     border: 1px solid var(--border);
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .purpose img {
@@ -177,10 +177,10 @@ footer {
 }
 
 .socialmedia img {
-    /* width: 30px; */
     width: 30px;
     height: 30px;
-    /* border: 1px solid var(--border); */
-    /* display: inline-block; */
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    display: inline-block;
     margin-left: 10px;
 }
