@@ -63,27 +63,103 @@ footer {
 }
 
 /* ================= Home ================= */
+/* HERO */
+.hero {
+    position: relative;
+    margin-top: 10px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.hero-cta {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 15px;
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: var(--text-dark);
+    color: white;
+    text-decoration: none;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    margin-top: 10px;
+    padding: 15px;
+    background: var(--section-bg);
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* GRID */
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.grid-box {
+    background: var(--section-bg);
+    padding: 10px;
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+.grid-box img {
+    width: 100%;
+}
 
 /* ================= About Us ================= */
-.company-purpose {
+.hero {
     /* position: relative; */
     margin-top: 10px;
     border: 1px solid var(--border);
     background: var(--section-bg);
+    padding: 10px;
+
 }
 
 /* TITLE */
-.company-name h1 {
-    margin-top: 10px;
-    top: 10px;
-    width: 100%;
-    text-align: center;
+.hero h1 {
+    top: 8px;
+    /* width: 100%; */
+    /* text-align: center; */
     font-family: var(--heading-font);
+    color: var(--text-dark);
+
 }
 
 /* PURPOSE BOX */
 .purpose {
-    margin: 40px;
+    margin: 50px 30px;
     background: var(--main-bg);
     padding: 15px;
     border: 1px solid var(--border);
@@ -162,6 +238,55 @@ figcaption {
 }
 
 /* ================= Trip ================= */
+.trip-cta {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    background: var(--section-bg);
+    border: 1px solid var(--border);
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.trip-card {
+    border: 1px solid var(--border);
+    background: var(--section-bg);
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-card img {
+    width: 100%;
+}
+
+/* TABLE */
+.trip-table-section {
+    margin-top: 10px;
+    padding: 15px;
+    background: var(--section-bg);
+    border: 1px solid var(--border);
+}
+
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid var(--border);
+    padding: 8px;
+    text-align: center;
+}
+
+.trip-table th {
+    background: var(--main-bg);
+}
 
 /* ================= Contact Us ================= */
 /* COMPANY INFO */
