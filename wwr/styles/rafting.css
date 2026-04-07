@@ -136,9 +136,9 @@ footer {
 
 button {
     grid-column: span 2;
-    background: var(--accent1-color);
+    background: var(--main-bg);
     padding: 15px;
-    border: 1px solid #999;
+    border: 1px solid var(--border);
     font-size: 16px;
     cursor: pointer;
     text-align: center;
@@ -148,9 +148,9 @@ button {
 
 /* TEAM SECTION */
 .team {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border);
     background-color: var(--section-bg);
     margin: 20px 0 10px;
 }
@@ -163,14 +163,15 @@ button {
 
 }
 
-.team-grid .figcaption {
-    font-size: 20px;
+.team-grid figcaption {
+    font-size: 12px;
+    font-family: var(--body-font);
 
 }
 
-.employee .img {
-    width: 100px;
-    height: 60px;
+.employee img {
+    width: auto;
+    height: 100px;
     background: #ddd;
     margin-bottom: 10px;
 }
