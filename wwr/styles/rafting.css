@@ -1,10 +1,18 @@
 :root {
-    --primary-color: #ededf9;
+    /* --primary-color: #ededf9;
     --secondary-color: #5c8fc6;
     --accent1-color: #d6e0e3;
-    /* --accent2-color: #042d42; */
+    --accent2-color: #042d42;
     --primary-font: "Times New Roman", "Georgia", serif;
-    /* --body-font: Arial, sans-serif; */
+    --body-font: Arial, sans-serif; */
+
+    --main-bg: #f4f4f4;
+    --section-bg: #e0e0e0;
+    --header-footer: #cfc3e6;
+    --text-dark: #222;
+    --border: #999;
+    --heading-font: Georgia, "Times New Roman", serif;
+    --body-font: Arial, sans-serif;
 }
 
 * {
@@ -15,7 +23,7 @@
 }
 
 body {
-    background: var(--primary-color);
+    background: var(--main-bg);
 }
 
 header,
@@ -28,9 +36,9 @@ footer {
 
 /* HEADER */
 .top-bar {
-    margin-top: 20px;
-    background-color: var(--secondary-color);
-    border: 1px solid #999;
+    margin-top: 10px;
+    background-color: var(--header-footer);
+    border: 1px solid var(--border);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -38,7 +46,7 @@ footer {
 }
 
 .logo {
-    margin-left: 80px;
+    margin-left: 120px;
     width: 100px;
     height: 100px;
     background: var(--primary-color);
@@ -48,7 +56,8 @@ footer {
 
 .nav a {
     padding: 5px 15px;
-    background: var(--primary-color);
+    border: 1px solid var(--border);
+    background: #fff;
     text-decoration: none;
     border: 1px solid #999;
 }
@@ -122,6 +131,7 @@ button {
     padding: 20px;
     text-align: center;
     border: 1px solid #ccc;
+    background-color: var(--section-bg);
     margin: 20px 0 10px;
 }
 
@@ -147,7 +157,8 @@ button {
 
 /* FOOTER */
 .footer {
-    background: var(--accent1-color);
+    background: var(--header-footer);
+    border: 1px solid var(--border);
     display: flex;
     justify-content: space-between;
     align-items: center;
