@@ -56,8 +56,8 @@ footer {
     text-decoration: none;
     padding: 8px 20px;
     border: 1px solid var(--border);
-    background: #fff;
-    color: #000;
+    background: var(--main-bg);
+    color: var(--text-dark);
     font-size: 14px;
 }
 
@@ -79,9 +79,6 @@ footer {
 .contact-form {
     margin: 0 auto;
     padding: 1rem;
-    /* border: 1px solid var(--border); */
-    /* border-radius: 0.5rem; */
-    /* background-color: var(--primary-color); */
     display: grid;
     grid-template-columns: 2fr 4fr;
     gap: 15px;
@@ -165,7 +162,7 @@ button {
 .employee img {
     width: auto;
     height: 100px;
-    background: #ddd;
+    background: var(--main-bg);
     margin-bottom: 10px;
 }
 
@@ -177,7 +174,6 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px 10px 200px;
-    border: 1px solid #ccc;
 }
 
 .socialmedia div {
