@@ -57,8 +57,8 @@ footer {
     text-decoration: none;
     padding: 8px 20px;
     border: 1px solid var(--border);
-    background: #fff;
-    color: #000;
+    background: var(--main-bg);
+    color: var(--text-dark);
     font-size: 14px;
 }
 
@@ -74,7 +74,6 @@ footer {
 
 /* TITLE */
 .company-name h1 {
-    /* position: absolute; */
     margin-top: 10px;
     top: 10px;
     width: 100%;
@@ -84,12 +83,8 @@ footer {
 
 /* PURPOSE BOX */
 .purpose {
-    /* position: absolute; */
-    /* bottom: 20px;
-    left: 40px;
-    right: 40px; */
     margin: 40px;
-    background: #fff;
+    background: var(--main-bg);
     padding: 15px;
     border: 1px solid var(--border);
     display: flex;
@@ -106,9 +101,9 @@ footer {
     font-size: 14px;
 }
 
-/* ================= HISTORY ================= */
+/* HISTORY */
 .history {
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 15px 45px 0px;
     background: var(--section-bg);
     border: 1px solid var(--border);
@@ -125,8 +120,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-    /* align-items: stretch; */
-    /* justify-content: center; */
     font-size: 14px;
 }
 
@@ -135,9 +128,9 @@ footer {
     width: 100%;
 }
 
-/* ================= ADVENTURES ================= */
+/* ADVENTURES */
 .adventures-journey {
-    margin: 15px 0;
+    margin-top: 10px;
     padding: 15px;
     background: var(--section-bg);
     border: 1px solid var(--border);
@@ -186,6 +179,7 @@ figcaption {
     padding: 20px;
 }
 
+/* CONTACT FORM */
 .contact-form {
     margin: 0 auto;
     padding: 1rem;
@@ -260,7 +254,6 @@ button {
     justify-content: space-around;
     margin: 20px 0 10px;
     font-size: 12px;
-
 }
 
 .team-grid figcaption {
@@ -273,7 +266,6 @@ button {
     width: auto;
     height: 100px;
     background: var(--main-bg);
-    margin-bottom: 10px;
 }
 
 /* ================= FOOTER ================= */
@@ -285,6 +277,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px auto;
     padding: 10px 30px 10px 200px;
 }
 
