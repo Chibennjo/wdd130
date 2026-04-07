@@ -174,7 +174,7 @@ footer {
 
 .hero article {
     position: absolute;
-    top: 180px;
+    top: 80px;
     left: 50%;
     transform: translateX(-50%);
     width: 85%;
@@ -221,7 +221,7 @@ footer {
 }
 
 .history-content img {
-    height: 80%;
+    height: 70%;
     width: 100%;
 }
 
