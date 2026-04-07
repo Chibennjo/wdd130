@@ -138,27 +138,57 @@ footer {
 }
 
 /* ================= About Us ================= */
-.hero {
-    /* position: relative; */
+/* .hero {
+    position: relative;
     margin-top: 10px;
     border: 1px solid var(--border);
     background: var(--section-bg);
     padding: 10px;
-
-}
+} */
 
 /* TITLE */
-.hero h1 {
+/* .hero h1 {
     top: 8px;
-    /* width: 100%; */
-    /* text-align: center; */
+    width: 100%;
+    text-align: center;
     font-family: var(--heading-font);
     color: var(--text-dark);
-
+} */
+.hero {
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid var(--border);
+    background: var(--section-bg);
 }
 
+.hero img {
+    width: 100%;
+    float: right;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--text-dark);
+}
+
+/* .hero-cta {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 15px;
+    border: 1px solid var(--border);
+    text-align: center;
+} */
+
 /* PURPOSE BOX */
-.purpose {
+.hero article {
+    position: absolute;
     margin: 50px 30px;
     background: var(--main-bg);
     padding: 15px;
@@ -168,7 +198,8 @@ footer {
     gap: 20px;
 }
 
-.purpose img {
+.hero img {
+    float: right;
     margin-right: 20px;
     width: 140px;
 }
@@ -179,6 +210,7 @@ footer {
 
 /* HISTORY */
 .history {
+    position: relative;
     margin-top: 10px;
     padding: 15px 45px 0px;
     background: var(--section-bg);
