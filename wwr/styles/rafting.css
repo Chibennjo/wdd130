@@ -63,23 +63,32 @@ footer {
 }
 
 /* ================= Home ================= */
-/* HERO */
-/* .hero {
+.hero {
     position: relative;
     margin-top: 10px;
+    border: 1px solid var(--border);
+    background: var(--section-bg);
+    align-items: center;
 }
 
 .hero img {
     width: 100%;
+
 }
 
+/* TITLE */
 .hero h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
+    width: 85%;
+    left: 60px;
     text-align: center;
-    color: white;
-} */
+    font-family: var(--heading-font);
+    /* color: var(--main-bg); */
+    color: var(--main-bg);
+    background: rgba(47, 62, 70, 0.85);
+
+}
 
 .hero-cta {
     position: absolute;
@@ -138,40 +147,8 @@ footer {
 }
 
 /* ================= About Us ================= */
-.hero {
-    position: relative;
-    margin-top: 10px;
-    border: 1px solid var(--border);
-    background: var(--section-bg);
-    align-items: center;
-}
-
-/* To darken the picture background */
-/* .hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.40);
-} */
-
-.hero img {
-    width: 100%;
-
-}
-
-/* TITLE */
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    width: 85%;
-    left: 60px;
-    text-align: center;
-    font-family: var(--heading-font);
-    /* color: var(--main-bg); */
-    color: var(--main-bg);
-    background: rgba(47, 62, 70, 0.85);
-
-}
+/* The Hero image and heading have already been written
+under the Home section of the css */
 
 /* PURPOSE BOX (REQUIRED FIX) */
 .hero article {
